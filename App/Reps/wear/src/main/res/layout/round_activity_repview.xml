@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jessica.reps.repview"
+    tools:deviceIds="wear_round"
+    android:background="@drawable/frontbg">
+
+    <TextView
+        android:id="@+id/caname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lynn Jenkins"
+        android:textColor="#838383"
+        android:layout_below="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+    <ImageButton
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/img"
+        android:background="@drawable/lynn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Democrat"
+        android:id="@+id/party"
+        android:layout_below="@+id/caname"
+        android:layout_alignStart="@+id/img"
+        android:textColor="#55a4f2" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/mainrep"
+        android:background="@drawable/lynn"
+        android:layout_below="@+id/party"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/repl"
+        android:background="@drawable/moran"
+        android:layout_alignTop="@+id/mainrep"
+        android:layout_alignStart="@+id/caname" />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/repr"
+        android:background="@drawable/pat2"
+        android:layout_alignTop="@+id/mainrep"
+        android:layout_alignEnd="@+id/caname" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="r"
+        android:id="@+id/randomizer"
+        android:layout_above="@+id/caname"
+        android:layout_toEndOf="@+id/caname" />
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Reps</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_repviewflip">repviewflip</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_random_rep">random_rep</string>
+</resources>

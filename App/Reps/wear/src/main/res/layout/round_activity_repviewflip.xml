@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jessica.reps.repviewflip"
+    tools:deviceIds="wear_round"
+    android:background="@drawable/backbg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lynn Jenkins"
+        android:id="@+id/textView"
+        android:layout_marginTop="18dp"
+        android:textColor="#a0a0a0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Democrat"
+        android:id="@+id/vote"
+        android:textColor="#5d85be"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="vote in 2012"
+        android:id="@+id/textView2"
+        android:textColor="#626262"
+        android:layout_below="@+id/vote"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Shawnee Mission, KS"
+        android:id="@+id/loc"
+        android:textColor="#7b7a7a"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="49% "
+        android:id="@+id/demp"
+        android:textColor="#769fd2"
+        android:layout_below="@+id/loc"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/loc"
+        android:layout_above="@+id/demp"
+        android:layout_alignEnd="@+id/loc"
+        android:background="#00ffffff"
+        android:singleLine="false"
+        android:visibility="invisible" />
+</RelativeLayout>

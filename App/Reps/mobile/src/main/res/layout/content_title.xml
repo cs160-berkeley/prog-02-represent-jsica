@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jessica.congressional.Title"
+    tools:showIn="@layout/activity_title"
+    android:background="@drawable/main2">
+
+    <EditText
+        android:text="Enter Your Zipcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/zip"
+        android:background="#00ffffff"
+        android:autoText="false"
+        android:textIsSelectable="false"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="#9e9c9c"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="202dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:text="Search by Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:background="#00ffffff"
+        android:textColor="#9e9c9c"
+        android:layout_alignTop="@+id/zip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="25dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:id="@+id/go"
+        android:layout_below="@+id/location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:onClick="next"/>
+
+</RelativeLayout>
