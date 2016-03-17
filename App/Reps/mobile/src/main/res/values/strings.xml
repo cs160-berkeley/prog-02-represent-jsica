@@ -4,6 +4,7 @@
     <string name="title_activity_repview">repview</string>
     <string name="title_activity_detailed">detailed</string>
     <string name="title_activity_detail">detail</string>
+    <string name="gps_activity">GPSActivity</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

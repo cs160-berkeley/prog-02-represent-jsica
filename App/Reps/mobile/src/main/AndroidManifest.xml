@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -34,6 +35,10 @@
             android:name=".detail"
             android:label="@string/title_activity_detail"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GPSActivity"
+            android:label="@string/gps_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <service
             android:name=".PhoneToWatchService"
@@ -48,6 +53,18 @@
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>
         </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAQLOhJgGKzWr7tZIgOqrkxGtoGSnJ1UR0"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="myfabrickey" />
 
 
     </application>
