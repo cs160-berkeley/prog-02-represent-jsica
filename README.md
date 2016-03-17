@@ -16,8 +16,8 @@ See Project 2B video (https://vimeo.com/157980539)
 
 <img src="screenshots/m2.png" height="400" alt="mobile1"/>
 <img src="screenshots/m1.png" height="400" alt="mobile2"/>
-<img src="screenshots/w2.png" height="200" alt="watch1"/>
-<img src="screenshots/w1.png" height="200" alt="watch2"/>
+<img src="screenshots/w2.png" height="300" alt="watch1"/>
+<img src="screenshots/w1.png" height="300" alt="watch2"/>
 
 
 ## Acknowledgments
